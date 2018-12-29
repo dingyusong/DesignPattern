@@ -62,6 +62,7 @@
 				F7AD1D4521D6189F0047F8CE /* AppDelegate.m */,
 				F7AD1D4721D6189F0047F8CE /* ViewController.h */,
 				F7AD1D4821D6189F0047F8CE /* ViewController.m */,
+				F7E290E621D72F1E00F8310A /* 对象创建 */,
 				F7AD1D4A21D6189F0047F8CE /* Main.storyboard */,
 				F7AD1D4D21D618A30047F8CE /* Assets.xcassets */,
 				F7AD1D4F21D618A30047F8CE /* LaunchScreen.storyboard */,
@@ -69,6 +70,21 @@
 				F7AD1D5321D618A30047F8CE /* main.m */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		F7E290E621D72F1E00F8310A /* 对象创建 */ = {
+			isa = PBXGroup;
+			children = (
+				F7E290E721D72F2E00F8310A /* 原型 */,
+			);
+			path = "对象创建";
+			sourceTree = "<group>";
+		};
+		F7E290E721D72F2E00F8310A /* 原型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "原型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
