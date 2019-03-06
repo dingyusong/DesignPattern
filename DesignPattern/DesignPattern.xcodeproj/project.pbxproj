@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736F8222FA0D2003BE550 /* DYSStudent.m */; };
+		F7473709222FA0D2003BE550 /* DYSDemo02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */; };
+		F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FE222FA0D2003BE550 /* DYSTeacher.m */; };
+		F747370B222FA0D2003BE550 /* DYSDemo02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */; };
+		F747370C222FA0D2003BE550 /* DYSStudent2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473701222FA0D2003BE550 /* DYSStudent2.m */; };
+		F747370D222FA0D2003BE550 /* DYSDemo03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */; };
+		F747370E222FA0D2003BE550 /* DYSDemo03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */; };
+		F747370F222FA0D2003BE550 /* DYSTeacher2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473707222FA0D2003BE550 /* DYSTeacher2.m */; };
 		F7AD1D4621D6189F0047F8CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD1D4521D6189F0047F8CE /* AppDelegate.m */; };
 		F7AD1D4921D6189F0047F8CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD1D4821D6189F0047F8CE /* ViewController.m */; };
 		F7AD1D4C21D6189F0047F8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD1D4A21D6189F0047F8CE /* Main.storyboard */; };
@@ -16,6 +24,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
+		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
+		F74736FA222FA0D2003BE550 /* DYSDemo02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSDemo02ViewController.h; sourceTree = "<group>"; };
+		F74736FB222FA0D2003BE550 /* DYSCloneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSCloneProtocol.h; sourceTree = "<group>"; };
+		F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYSDemo02ViewController.xib; sourceTree = "<group>"; };
+		F74736FD222FA0D2003BE550 /* DYSStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSStudent.h; sourceTree = "<group>"; };
+		F74736FE222FA0D2003BE550 /* DYSTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSTeacher.m; sourceTree = "<group>"; };
+		F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02ViewController.m; sourceTree = "<group>"; };
+		F7473701222FA0D2003BE550 /* DYSStudent2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent2.m; sourceTree = "<group>"; };
+		F7473702222FA0D2003BE550 /* DYSDemo03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSDemo03ViewController.h; sourceTree = "<group>"; };
+		F7473703222FA0D2003BE550 /* DYSTeacher2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher2.h; sourceTree = "<group>"; };
+		F7473704222FA0D2003BE550 /* DYSStudent2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSStudent2.h; sourceTree = "<group>"; };
+		F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYSDemo03ViewController.xib; sourceTree = "<group>"; };
+		F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSDemo03ViewController.m; sourceTree = "<group>"; };
+		F7473707222FA0D2003BE550 /* DYSTeacher2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSTeacher2.m; sourceTree = "<group>"; };
 		F7AD1D4121D6189F0047F8CE /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AD1D4421D6189F0047F8CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7AD1D4521D6189F0047F8CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +62,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74736F7222FA0D2003BE550 /* Demo02 */ = {
+			isa = PBXGroup;
+			children = (
+				F74736FA222FA0D2003BE550 /* DYSDemo02ViewController.h */,
+				F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */,
+				F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */,
+				F74736FB222FA0D2003BE550 /* DYSCloneProtocol.h */,
+				F74736FD222FA0D2003BE550 /* DYSStudent.h */,
+				F74736F8222FA0D2003BE550 /* DYSStudent.m */,
+				F74736F9222FA0D2003BE550 /* DYSTeacher.h */,
+				F74736FE222FA0D2003BE550 /* DYSTeacher.m */,
+			);
+			path = Demo02;
+			sourceTree = "<group>";
+		};
+		F7473700222FA0D2003BE550 /* Demo03 */ = {
+			isa = PBXGroup;
+			children = (
+				F7473702222FA0D2003BE550 /* DYSDemo03ViewController.h */,
+				F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */,
+				F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */,
+				F7473704222FA0D2003BE550 /* DYSStudent2.h */,
+				F7473701222FA0D2003BE550 /* DYSStudent2.m */,
+				F7473703222FA0D2003BE550 /* DYSTeacher2.h */,
+				F7473707222FA0D2003BE550 /* DYSTeacher2.m */,
+			);
+			path = Demo03;
+			sourceTree = "<group>";
+		};
 		F7AD1D3821D6189F0047F8CE = {
 			isa = PBXGroup;
 			children = (
@@ -75,16 +127,18 @@
 		F7E290E621D72F1E00F8310A /* 对象创建 */ = {
 			isa = PBXGroup;
 			children = (
-				F7E290E721D72F2E00F8310A /* 原型 */,
+				F7E290E721D72F2E00F8310A /* 原型-prototype */,
 			);
 			path = "对象创建";
 			sourceTree = "<group>";
 		};
-		F7E290E721D72F2E00F8310A /* 原型 */ = {
+		F7E290E721D72F2E00F8310A /* 原型-prototype */ = {
 			isa = PBXGroup;
 			children = (
+				F74736F7222FA0D2003BE550 /* Demo02 */,
+				F7473700222FA0D2003BE550 /* Demo03 */,
 			);
-			path = "原型";
+			path = "原型-prototype";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AD1D5121D618A30047F8CE /* LaunchScreen.storyboard in Resources */,
+				F747370D222FA0D2003BE550 /* DYSDemo03ViewController.xib in Resources */,
 				F7AD1D4E21D618A30047F8CE /* Assets.xcassets in Resources */,
+				F7473709222FA0D2003BE550 /* DYSDemo02ViewController.xib in Resources */,
 				F7AD1D4C21D6189F0047F8CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,8 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F747370F222FA0D2003BE550 /* DYSTeacher2.m in Sources */,
 				F7AD1D4921D6189F0047F8CE /* ViewController.m in Sources */,
 				F7AD1D5421D618A30047F8CE /* main.m in Sources */,
+				F747370B222FA0D2003BE550 /* DYSDemo02ViewController.m in Sources */,
+				F747370E222FA0D2003BE550 /* DYSDemo03ViewController.m in Sources */,
+				F747370C222FA0D2003BE550 /* DYSStudent2.m in Sources */,
+				F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */,
+				F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */,
 				F7AD1D4621D6189F0047F8CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
