@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		358F62362232BDC0003DC180 /* DYSFactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62342232BDC0003DC180 /* DYSFactoryMethodViewController.m */; };
+		358F62452232BDEE003DC180 /* VolunteerLeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62392232BDED003DC180 /* VolunteerLeiFengFactory.m */; };
+		358F62462232BDEE003DC180 /* VolunteerLeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F623D2232BDED003DC180 /* VolunteerLeiFeng.m */; };
+		358F62472232BDEE003DC180 /* UndergraduateLeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F623E2232BDED003DC180 /* UndergraduateLeiFengFactory.m */; };
+		358F62482232BDEE003DC180 /* LeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F623F2232BDED003DC180 /* LeiFeng.m */; };
+		358F62492232BDEE003DC180 /* UnderGraduateLeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62422232BDED003DC180 /* UnderGraduateLeiFeng.m */; };
+		358F624A2232BDEE003DC180 /* LeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62432232BDEE003DC180 /* LeiFengFactory.m */; };
+		358F624F2232C085003DC180 /* DYSBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F624E2232C085003DC180 /* DYSBuilderViewController.m */; };
+		358F62592232C0E4003DC180 /* DYSThinPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62512232C0E4003DC180 /* DYSThinPersonBuilder.m */; };
+		358F625A2232C0E4003DC180 /* DYSPersonBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62522232C0E4003DC180 /* DYSPersonBuilderDirector.m */; };
+		358F625B2232C0E4003DC180 /* DYSPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62572232C0E4003DC180 /* DYSPersonBuilder.m */; };
+		358F625C2232C0E4003DC180 /* DYSFatPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F62582232C0E4003DC180 /* DYSFatPersonBuilder.m */; };
+		358F626022336836003DC180 /* DYSSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F625F22336836003DC180 /* DYSSingletonViewController.m */; };
+		358F626622336B03003DC180 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F626222336B02003DC180 /* People.m */; };
+		358F626722336B03003DC180 /* WaterVat.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F626522336B03003DC180 /* WaterVat.m */; };
 		F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736F8222FA0D2003BE550 /* DYSStudent.m */; };
-		F7473709222FA0D2003BE550 /* DYSDemo02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */; };
 		F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FE222FA0D2003BE550 /* DYSTeacher.m */; };
-		F747370B222FA0D2003BE550 /* DYSDemo02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */; };
+		F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */; };
 		F747370C222FA0D2003BE550 /* DYSStudent2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473701222FA0D2003BE550 /* DYSStudent2.m */; };
-		F747370D222FA0D2003BE550 /* DYSDemo03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */; };
-		F747370E222FA0D2003BE550 /* DYSDemo03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */; };
 		F747370F222FA0D2003BE550 /* DYSTeacher2.m in Sources */ = {isa = PBXBuildFile; fileRef = F7473707222FA0D2003BE550 /* DYSTeacher2.m */; };
 		F7AD1D4621D6189F0047F8CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD1D4521D6189F0047F8CE /* AppDelegate.m */; };
 		F7AD1D4921D6189F0047F8CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD1D4821D6189F0047F8CE /* ViewController.m */; };
@@ -24,20 +36,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		358F62332232BDC0003DC180 /* DYSFactoryMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSFactoryMethodViewController.h; sourceTree = "<group>"; };
+		358F62342232BDC0003DC180 /* DYSFactoryMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSFactoryMethodViewController.m; sourceTree = "<group>"; };
+		358F62392232BDED003DC180 /* VolunteerLeiFengFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerLeiFengFactory.m; sourceTree = "<group>"; };
+		358F623A2232BDED003DC180 /* VolunteerLeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerLeiFengFactory.h; sourceTree = "<group>"; };
+		358F623B2232BDED003DC180 /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
+		358F623C2232BDED003DC180 /* UndergraduateLeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndergraduateLeiFengFactory.h; sourceTree = "<group>"; };
+		358F623D2232BDED003DC180 /* VolunteerLeiFeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerLeiFeng.m; sourceTree = "<group>"; };
+		358F623E2232BDED003DC180 /* UndergraduateLeiFengFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndergraduateLeiFengFactory.m; sourceTree = "<group>"; };
+		358F623F2232BDED003DC180 /* LeiFeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiFeng.m; sourceTree = "<group>"; };
+		358F62402232BDED003DC180 /* VolunteerLeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerLeiFeng.h; sourceTree = "<group>"; };
+		358F62412232BDED003DC180 /* UnderGraduateLeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderGraduateLeiFeng.h; sourceTree = "<group>"; };
+		358F62422232BDED003DC180 /* UnderGraduateLeiFeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderGraduateLeiFeng.m; sourceTree = "<group>"; };
+		358F62432232BDEE003DC180 /* LeiFengFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiFengFactory.m; sourceTree = "<group>"; };
+		358F62442232BDEE003DC180 /* LeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		358F624D2232C085003DC180 /* DYSBuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSBuilderViewController.h; sourceTree = "<group>"; };
+		358F624E2232C085003DC180 /* DYSBuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSBuilderViewController.m; sourceTree = "<group>"; };
+		358F62512232C0E4003DC180 /* DYSThinPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSThinPersonBuilder.m; sourceTree = "<group>"; };
+		358F62522232C0E4003DC180 /* DYSPersonBuilderDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSPersonBuilderDirector.m; sourceTree = "<group>"; };
+		358F62532232C0E4003DC180 /* DYSFatPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSFatPersonBuilder.h; sourceTree = "<group>"; };
+		358F62542232C0E4003DC180 /* DYSPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPersonBuilder.h; sourceTree = "<group>"; };
+		358F62552232C0E4003DC180 /* DYSThinPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSThinPersonBuilder.h; sourceTree = "<group>"; };
+		358F62562232C0E4003DC180 /* DYSPersonBuilderDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPersonBuilderDirector.h; sourceTree = "<group>"; };
+		358F62572232C0E4003DC180 /* DYSPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSPersonBuilder.m; sourceTree = "<group>"; };
+		358F62582232C0E4003DC180 /* DYSFatPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSFatPersonBuilder.m; sourceTree = "<group>"; };
+		358F625E22336836003DC180 /* DYSSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSSingletonViewController.h; sourceTree = "<group>"; };
+		358F625F22336836003DC180 /* DYSSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSSingletonViewController.m; sourceTree = "<group>"; };
+		358F626222336B02003DC180 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		358F626322336B02003DC180 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		358F626422336B03003DC180 /* WaterVat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterVat.h; sourceTree = "<group>"; };
+		358F626522336B03003DC180 /* WaterVat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterVat.m; sourceTree = "<group>"; };
 		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
-		F74736FA222FA0D2003BE550 /* DYSDemo02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSDemo02ViewController.h; sourceTree = "<group>"; };
+		F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPrototypeViewController.h; sourceTree = "<group>"; };
 		F74736FB222FA0D2003BE550 /* DYSCloneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSCloneProtocol.h; sourceTree = "<group>"; };
-		F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYSDemo02ViewController.xib; sourceTree = "<group>"; };
 		F74736FD222FA0D2003BE550 /* DYSStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSStudent.h; sourceTree = "<group>"; };
 		F74736FE222FA0D2003BE550 /* DYSTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSTeacher.m; sourceTree = "<group>"; };
-		F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSDemo02ViewController.m; sourceTree = "<group>"; };
+		F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSPrototypeViewController.m; sourceTree = "<group>"; };
 		F7473701222FA0D2003BE550 /* DYSStudent2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent2.m; sourceTree = "<group>"; };
-		F7473702222FA0D2003BE550 /* DYSDemo03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSDemo03ViewController.h; sourceTree = "<group>"; };
 		F7473703222FA0D2003BE550 /* DYSTeacher2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher2.h; sourceTree = "<group>"; };
 		F7473704222FA0D2003BE550 /* DYSStudent2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSStudent2.h; sourceTree = "<group>"; };
-		F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYSDemo03ViewController.xib; sourceTree = "<group>"; };
-		F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSDemo03ViewController.m; sourceTree = "<group>"; };
 		F7473707222FA0D2003BE550 /* DYSTeacher2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSTeacher2.m; sourceTree = "<group>"; };
 		F7AD1D4121D6189F0047F8CE /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AD1D4421D6189F0047F8CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,33 +100,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F74736F7222FA0D2003BE550 /* Demo02 */ = {
+		358F62322232BC9A003DC180 /* 工厂方法-FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
-				F74736FA222FA0D2003BE550 /* DYSDemo02ViewController.h */,
-				F74736FF222FA0D2003BE550 /* DYSDemo02ViewController.m */,
-				F74736FC222FA0D2003BE550 /* DYSDemo02ViewController.xib */,
+				358F62332232BDC0003DC180 /* DYSFactoryMethodViewController.h */,
+				358F62342232BDC0003DC180 /* DYSFactoryMethodViewController.m */,
+				358F62382232BDCB003DC180 /* Demo01 */,
+			);
+			path = "工厂方法-FactoryMethod";
+			sourceTree = "<group>";
+		};
+		358F62382232BDCB003DC180 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				358F623B2232BDED003DC180 /* LeiFeng.h */,
+				358F623F2232BDED003DC180 /* LeiFeng.m */,
+				358F62442232BDEE003DC180 /* LeiFengFactory.h */,
+				358F62432232BDEE003DC180 /* LeiFengFactory.m */,
+				358F62412232BDED003DC180 /* UnderGraduateLeiFeng.h */,
+				358F62422232BDED003DC180 /* UnderGraduateLeiFeng.m */,
+				358F623C2232BDED003DC180 /* UndergraduateLeiFengFactory.h */,
+				358F623E2232BDED003DC180 /* UndergraduateLeiFengFactory.m */,
+				358F62402232BDED003DC180 /* VolunteerLeiFeng.h */,
+				358F623D2232BDED003DC180 /* VolunteerLeiFeng.m */,
+				358F623A2232BDED003DC180 /* VolunteerLeiFengFactory.h */,
+				358F62392232BDED003DC180 /* VolunteerLeiFengFactory.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		358F624C2232C05B003DC180 /* 建造者-Builder */ = {
+			isa = PBXGroup;
+			children = (
+				358F624D2232C085003DC180 /* DYSBuilderViewController.h */,
+				358F624E2232C085003DC180 /* DYSBuilderViewController.m */,
+				358F62502232C08B003DC180 /* Demo01 */,
+			);
+			path = "建造者-Builder";
+			sourceTree = "<group>";
+		};
+		358F62502232C08B003DC180 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				358F62532232C0E4003DC180 /* DYSFatPersonBuilder.h */,
+				358F62582232C0E4003DC180 /* DYSFatPersonBuilder.m */,
+				358F62542232C0E4003DC180 /* DYSPersonBuilder.h */,
+				358F62572232C0E4003DC180 /* DYSPersonBuilder.m */,
+				358F62562232C0E4003DC180 /* DYSPersonBuilderDirector.h */,
+				358F62522232C0E4003DC180 /* DYSPersonBuilderDirector.m */,
+				358F62552232C0E4003DC180 /* DYSThinPersonBuilder.h */,
+				358F62512232C0E4003DC180 /* DYSThinPersonBuilder.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		358F625D2233679C003DC180 /* 单例-Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				358F625E22336836003DC180 /* DYSSingletonViewController.h */,
+				358F625F22336836003DC180 /* DYSSingletonViewController.m */,
+				358F626122336AC3003DC180 /* Demo01 */,
+			);
+			path = "单例-Singleton";
+			sourceTree = "<group>";
+		};
+		358F626122336AC3003DC180 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				358F626322336B02003DC180 /* People.h */,
+				358F626222336B02003DC180 /* People.m */,
+				358F626422336B03003DC180 /* WaterVat.h */,
+				358F626522336B03003DC180 /* WaterVat.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F74736F7222FA0D2003BE550 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
 				F74736FB222FA0D2003BE550 /* DYSCloneProtocol.h */,
 				F74736FD222FA0D2003BE550 /* DYSStudent.h */,
 				F74736F8222FA0D2003BE550 /* DYSStudent.m */,
 				F74736F9222FA0D2003BE550 /* DYSTeacher.h */,
 				F74736FE222FA0D2003BE550 /* DYSTeacher.m */,
 			);
-			path = Demo02;
+			path = Demo01;
 			sourceTree = "<group>";
 		};
-		F7473700222FA0D2003BE550 /* Demo03 */ = {
+		F7473700222FA0D2003BE550 /* Demo02 */ = {
 			isa = PBXGroup;
 			children = (
-				F7473702222FA0D2003BE550 /* DYSDemo03ViewController.h */,
-				F7473706222FA0D2003BE550 /* DYSDemo03ViewController.m */,
-				F7473705222FA0D2003BE550 /* DYSDemo03ViewController.xib */,
 				F7473704222FA0D2003BE550 /* DYSStudent2.h */,
 				F7473701222FA0D2003BE550 /* DYSStudent2.m */,
 				F7473703222FA0D2003BE550 /* DYSTeacher2.h */,
 				F7473707222FA0D2003BE550 /* DYSTeacher2.m */,
 			);
-			path = Demo03;
+			path = Demo02;
 			sourceTree = "<group>";
 		};
 		F7AD1D3821D6189F0047F8CE = {
@@ -127,18 +234,23 @@
 		F7E290E621D72F1E00F8310A /* 对象创建 */ = {
 			isa = PBXGroup;
 			children = (
-				F7E290E721D72F2E00F8310A /* 原型-prototype */,
+				358F625D2233679C003DC180 /* 单例-Singleton */,
+				358F624C2232C05B003DC180 /* 建造者-Builder */,
+				F7E290E721D72F2E00F8310A /* 原型-Prototype */,
+				358F62322232BC9A003DC180 /* 工厂方法-FactoryMethod */,
 			);
 			path = "对象创建";
 			sourceTree = "<group>";
 		};
-		F7E290E721D72F2E00F8310A /* 原型-prototype */ = {
+		F7E290E721D72F2E00F8310A /* 原型-Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				F74736F7222FA0D2003BE550 /* Demo02 */,
-				F7473700222FA0D2003BE550 /* Demo03 */,
+				F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */,
+				F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */,
+				F74736F7222FA0D2003BE550 /* Demo01 */,
+				F7473700222FA0D2003BE550 /* Demo02 */,
 			);
-			path = "原型-prototype";
+			path = "原型-Prototype";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AD1D5121D618A30047F8CE /* LaunchScreen.storyboard in Resources */,
-				F747370D222FA0D2003BE550 /* DYSDemo03ViewController.xib in Resources */,
 				F7AD1D4E21D618A30047F8CE /* Assets.xcassets in Resources */,
-				F7473709222FA0D2003BE550 /* DYSDemo02ViewController.xib in Resources */,
 				F7AD1D4C21D6189F0047F8CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,13 +323,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358F62482232BDEE003DC180 /* LeiFeng.m in Sources */,
+				358F624A2232BDEE003DC180 /* LeiFengFactory.m in Sources */,
+				358F62362232BDC0003DC180 /* DYSFactoryMethodViewController.m in Sources */,
 				F747370F222FA0D2003BE550 /* DYSTeacher2.m in Sources */,
 				F7AD1D4921D6189F0047F8CE /* ViewController.m in Sources */,
+				358F62592232C0E4003DC180 /* DYSThinPersonBuilder.m in Sources */,
 				F7AD1D5421D618A30047F8CE /* main.m in Sources */,
-				F747370B222FA0D2003BE550 /* DYSDemo02ViewController.m in Sources */,
-				F747370E222FA0D2003BE550 /* DYSDemo03ViewController.m in Sources */,
+				358F62452232BDEE003DC180 /* VolunteerLeiFengFactory.m in Sources */,
+				F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */,
+				358F625C2232C0E4003DC180 /* DYSFatPersonBuilder.m in Sources */,
 				F747370C222FA0D2003BE550 /* DYSStudent2.m in Sources */,
 				F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */,
+				358F62462232BDEE003DC180 /* VolunteerLeiFeng.m in Sources */,
+				358F624F2232C085003DC180 /* DYSBuilderViewController.m in Sources */,
+				358F625A2232C0E4003DC180 /* DYSPersonBuilderDirector.m in Sources */,
+				358F626022336836003DC180 /* DYSSingletonViewController.m in Sources */,
+				358F626622336B03003DC180 /* People.m in Sources */,
+				358F625B2232C0E4003DC180 /* DYSPersonBuilder.m in Sources */,
+				358F62492232BDEE003DC180 /* UnderGraduateLeiFeng.m in Sources */,
+				358F626722336B03003DC180 /* WaterVat.m in Sources */,
+				358F62472232BDEE003DC180 /* UndergraduateLeiFengFactory.m in Sources */,
 				F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */,
 				F7AD1D4621D6189F0047F8CE /* AppDelegate.m in Sources */,
 			);

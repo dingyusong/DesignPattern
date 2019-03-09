@@ -27,19 +27,19 @@
             @"array": @[
                 @{
                    @"title": @"原型",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSPrototypeViewController"
                 },
                 @{
                    @"title": @"工厂方法",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSFactoryMethodViewController"
                 },
                 @{
-                   @"title": @"生成器",
-                   @"page": @"DYSDemo01ViewController"
+                   @"title": @"生成器/建造者",
+                   @"page": @"DYSBuilderViewController"
                 },
                 @{
                    @"title": @"单例",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSSingletonViewController"
                 },
             ]
         },
@@ -187,5 +187,6 @@
     NSString *classString = [dict objectForKey:@"page"];
     UIViewController *vc = [NSClassFromString(classString) new];
     [self.navigationController pushViewController:vc animated:YES];
+    vc.view.backgroundColor = [UIColor whiteColor];
 }
 @end
