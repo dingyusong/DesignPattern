@@ -48,15 +48,15 @@
             @"array": @[
                 @{
                    @"title": @"适配器",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSAdapterViewController"
                 },
                 @{
                    @"title": @"桥接",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSBridgeViewController"
                 },
                 @{
                    @"title": @"外观",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSFacadeViewController"
                 },
             ]
         },
@@ -65,11 +65,11 @@
             @"array": @[
                 @{
                    @"title": @"中介者",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSMediatorViewController"
                 },
                 @{
                    @"title": @"观察者",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSObserverViewController"
                 },
             ]
         },
@@ -78,11 +78,11 @@
             @"array": @[
                 @{
                    @"title": @"组合",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSCompositeViewController"
                 },
                 @{
                    @"title": @"迭代器",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSIteratorViewController"
                 },
             ]
         },
@@ -91,15 +91,15 @@
             @"array": @[
                 @{
                    @"title": @"访问者",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSVisitorViewController"
                 },
                 @{
                    @"title": @"装饰器",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSDecoratorViewController"
                 },
                 @{
                    @"title": @"责任链",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSResponseChainViewController"
                 },
             ]
         },
