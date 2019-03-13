@@ -67,6 +67,15 @@
 		35FF5B8A223806440079C123 /* DYSElementWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF5B83223806440079C123 /* DYSElementWoman.m */; };
 		35FF5B8B223806440079C123 /* DYSElementMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF5B84223806440079C123 /* DYSElementMan.m */; };
 		35FF5B8C223806440079C123 /* DYSObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF5B85223806440079C123 /* DYSObjectStructure.m */; };
+		F70966682238A35200AF3A8A /* DYSAnsweredPaper1.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966622238A35200AF3A8A /* DYSAnsweredPaper1.m */; };
+		F70966692238A35200AF3A8A /* DYSAnsweredPaper2.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966642238A35200AF3A8A /* DYSAnsweredPaper2.m */; };
+		F709666A2238A35200AF3A8A /* DYSTestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966652238A35200AF3A8A /* DYSTestPaper.m */; };
+		F709666D2238A37F00AF3A8A /* DYSTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F709666C2238A37F00AF3A8A /* DYSTemplateViewController.m */; };
+		F70966782238CBE700AF3A8A /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966702238CBE700AF3A8A /* CashReturn.m */; };
+		F70966792238CBE800AF3A8A /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966752238CBE700AF3A8A /* CashContext.m */; };
+		F709667A2238CBE800AF3A8A /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966762238CBE700AF3A8A /* CashNormal.m */; };
+		F709667B2238CBE800AF3A8A /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70966772238CBE700AF3A8A /* CashRebate.m */; };
+		F709667F2238D83500AF3A8A /* DYSStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F709667E2238D83500AF3A8A /* DYSStrategyViewController.m */; };
 		F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736F8222FA0D2003BE550 /* DYSStudent.m */; };
 		F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FE222FA0D2003BE550 /* DYSTeacher.m */; };
 		F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */; };
@@ -203,6 +212,26 @@
 		35FF5B83223806440079C123 /* DYSElementWoman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSElementWoman.m; sourceTree = "<group>"; };
 		35FF5B84223806440079C123 /* DYSElementMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSElementMan.m; sourceTree = "<group>"; };
 		35FF5B85223806440079C123 /* DYSObjectStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSObjectStructure.m; sourceTree = "<group>"; };
+		F70966622238A35200AF3A8A /* DYSAnsweredPaper1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSAnsweredPaper1.m; sourceTree = "<group>"; };
+		F70966632238A35200AF3A8A /* DYSTestPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTestPaper.h; sourceTree = "<group>"; };
+		F70966642238A35200AF3A8A /* DYSAnsweredPaper2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSAnsweredPaper2.m; sourceTree = "<group>"; };
+		F70966652238A35200AF3A8A /* DYSTestPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSTestPaper.m; sourceTree = "<group>"; };
+		F70966662238A35200AF3A8A /* DYSAnsweredPaper1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSAnsweredPaper1.h; sourceTree = "<group>"; };
+		F70966672238A35200AF3A8A /* DYSAnsweredPaper2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSAnsweredPaper2.h; sourceTree = "<group>"; };
+		F709666B2238A37F00AF3A8A /* DYSTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSTemplateViewController.h; sourceTree = "<group>"; };
+		F709666C2238A37F00AF3A8A /* DYSTemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSTemplateViewController.m; sourceTree = "<group>"; };
+		F709666F2238CBE700AF3A8A /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		F70966702238CBE700AF3A8A /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		F70966712238CBE700AF3A8A /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		F70966722238CBE700AF3A8A /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		F70966732238CBE700AF3A8A /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		F70966742238CBE700AF3A8A /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		F70966752238CBE700AF3A8A /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		F70966762238CBE700AF3A8A /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		F70966772238CBE700AF3A8A /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		F709667C2238D65C00AF3A8A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F709667D2238D83500AF3A8A /* DYSStrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSStrategyViewController.h; sourceTree = "<group>"; };
+		F709667E2238D83500AF3A8A /* DYSStrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSStrategyViewController.m; sourceTree = "<group>"; };
 		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
 		F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPrototypeViewController.h; sourceTree = "<group>"; };
@@ -672,6 +701,72 @@
 			path = "元素";
 			sourceTree = "<group>";
 		};
+		F709665D22389D2C00AF3A8A /* 算法封装 */ = {
+			isa = PBXGroup;
+			children = (
+				F709666022389DCB00AF3A8A /* 命令 */,
+				F709665F22389DC100AF3A8A /* 策略-Strategy */,
+				F709665E22389D6F00AF3A8A /* 模板方法-Template */,
+			);
+			path = "算法封装";
+			sourceTree = "<group>";
+		};
+		F709665E22389D6F00AF3A8A /* 模板方法-Template */ = {
+			isa = PBXGroup;
+			children = (
+				F70966612238A35200AF3A8A /* Demo01 */,
+				F709666B2238A37F00AF3A8A /* DYSTemplateViewController.h */,
+				F709666C2238A37F00AF3A8A /* DYSTemplateViewController.m */,
+			);
+			path = "模板方法-Template";
+			sourceTree = "<group>";
+		};
+		F709665F22389DC100AF3A8A /* 策略-Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				F709666E2238CBE700AF3A8A /* Demo01 */,
+				F709667D2238D83500AF3A8A /* DYSStrategyViewController.h */,
+				F709667E2238D83500AF3A8A /* DYSStrategyViewController.m */,
+			);
+			path = "策略-Strategy";
+			sourceTree = "<group>";
+		};
+		F709666022389DCB00AF3A8A /* 命令 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "命令";
+			sourceTree = "<group>";
+		};
+		F70966612238A35200AF3A8A /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F70966662238A35200AF3A8A /* DYSAnsweredPaper1.h */,
+				F70966622238A35200AF3A8A /* DYSAnsweredPaper1.m */,
+				F70966672238A35200AF3A8A /* DYSAnsweredPaper2.h */,
+				F70966642238A35200AF3A8A /* DYSAnsweredPaper2.m */,
+				F70966632238A35200AF3A8A /* DYSTestPaper.h */,
+				F70966652238A35200AF3A8A /* DYSTestPaper.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F709666E2238CBE700AF3A8A /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F70966712238CBE700AF3A8A /* CashSuper.h */,
+				F70966732238CBE700AF3A8A /* CashNormal.h */,
+				F70966762238CBE700AF3A8A /* CashNormal.m */,
+				F70966722238CBE700AF3A8A /* CashRebate.h */,
+				F70966772238CBE700AF3A8A /* CashRebate.m */,
+				F70966742238CBE700AF3A8A /* CashReturn.h */,
+				F70966702238CBE700AF3A8A /* CashReturn.m */,
+				F709666F2238CBE700AF3A8A /* CashContext.h */,
+				F70966752238CBE700AF3A8A /* CashContext.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
 		F74736F7222FA0D2003BE550 /* Demo01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +809,7 @@
 		F7AD1D4321D6189F0047F8CE /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F709665D22389D2C00AF3A8A /* 算法封装 */,
 				35FF5B45223804270079C123 /* 行为扩展 */,
 				35FF5B3C223802DA0079C123 /* 抽象集合 */,
 				35FF5B21223801840079C123 /* 对象去耦合 */,
@@ -728,6 +824,7 @@
 				F7AD1D4F21D618A30047F8CE /* LaunchScreen.storyboard */,
 				F7AD1D5221D618A30047F8CE /* Info.plist */,
 				F7AD1D5321D618A30047F8CE /* main.m */,
+				F709667C2238D65C00AF3A8A /* PrefixHeader.pch */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -829,10 +926,13 @@
 				35FF5AF72237FC8F0079C123 /* DYSAdapterViewController.m in Sources */,
 				35FF5B88223806440079C123 /* DYSAbstractVisitor.m in Sources */,
 				35FF5B092237FE9F0079C123 /* DYSHandsetBrandN.m in Sources */,
+				F709667F2238D83500AF3A8A /* DYSStrategyViewController.m in Sources */,
 				35FF5B8B223806440079C123 /* DYSElementMan.m in Sources */,
+				F709667A2238CBE800AF3A8A /* CashNormal.m in Sources */,
 				35FF5AF22237FBD20079C123 /* DYSStudent1.m in Sources */,
 				35FF5B37223802000079C123 /* DYSMediatorViewController.m in Sources */,
 				358F62482232BDEE003DC180 /* LeiFeng.m in Sources */,
+				F70966692238A35200AF3A8A /* DYSAnsweredPaper2.m in Sources */,
 				35FF5B51223804F30079C123 /* DYSVisitorViewController.m in Sources */,
 				35FF5B1D223800B00079C123 /* DYSStock.m in Sources */,
 				35FF5B30223801DE0079C123 /* DYSAbstractColleague.m in Sources */,
@@ -856,12 +956,15 @@
 				358F62452232BDEE003DC180 /* VolunteerLeiFengFactory.m in Sources */,
 				35FF5B5E223805310079C123 /* DYSRequest.m in Sources */,
 				35FF5B62223805310079C123 /* DYSChainBoss.m in Sources */,
+				F709666D2238A37F00AF3A8A /* DYSTemplateViewController.m in Sources */,
+				F709666A2238A35200AF3A8A /* DYSTestPaper.m in Sources */,
 				F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */,
 				35FF5B33223801DE0079C123 /* DYSAbstractMediator.m in Sources */,
 				358F625C2232C0E4003DC180 /* DYSFatPersonBuilder.m in Sources */,
 				35FF5B89223806440079C123 /* DYSAbstractElement.m in Sources */,
 				35FF5B70223805C70079C123 /* DYSComponent.m in Sources */,
 				F747370C222FA0D2003BE550 /* DYSStudent2.m in Sources */,
+				F70966782238CBE700AF3A8A /* CashReturn.m in Sources */,
 				35FF5B31223801DE0079C123 /* DYSColleague2.m in Sources */,
 				F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */,
 				35FF5B72223805C70079C123 /* DYSDecorator1.m in Sources */,
@@ -880,16 +983,19 @@
 				358F626022336836003DC180 /* DYSSingletonViewController.m in Sources */,
 				35FF5B32223801DE0079C123 /* DYSColleague1.m in Sources */,
 				35FF5B13223800870079C123 /* DYSFacadeViewController.m in Sources */,
+				F70966792238CBE800AF3A8A /* CashContext.m in Sources */,
 				358F626622336B03003DC180 /* People.m in Sources */,
 				358F625B2232C0E4003DC180 /* DYSPersonBuilder.m in Sources */,
 				35FF5B73223805C70079C123 /* DYSDecorator2.m in Sources */,
 				358F62492232BDEE003DC180 /* UnderGraduateLeiFeng.m in Sources */,
+				F70966682238A35200AF3A8A /* DYSAnsweredPaper1.m in Sources */,
 				358F626722336B03003DC180 /* WaterVat.m in Sources */,
 				358F62472232BDEE003DC180 /* UndergraduateLeiFengFactory.m in Sources */,
 				35FF5B0B2237FE9F0079C123 /* DYSHandsetAddressList.m in Sources */,
 				35FF5B0A2237FE9F0079C123 /* DYSHandsetGame.m in Sources */,
 				35FF5B8A223806440079C123 /* DYSElementWoman.m in Sources */,
 				F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */,
+				F709667B2238CBE800AF3A8A /* CashRebate.m in Sources */,
 				F7AD1D4621D6189F0047F8CE /* AppDelegate.m in Sources */,
 				35FF5AF12237FBD20079C123 /* DYSCourse.m in Sources */,
 			);
@@ -1035,6 +1141,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = DesignPattern/PrefixHeader.pch;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1053,6 +1161,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = DesignPattern/PrefixHeader.pch;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

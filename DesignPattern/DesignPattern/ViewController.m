@@ -108,11 +108,11 @@
             @"array": @[
                 @{
                    @"title": @"模板方法",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSTemplateViewController"
                 },
                 @{
                    @"title": @"策略",
-                   @"page": @"DYSDemo01ViewController"
+                   @"page": @"DYSStrategyViewController"
                 },
                 @{
                    @"title": @"命令",
