@@ -170,14 +170,25 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellID"];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CellID"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"CellID"];
     }
 
     NSDictionary *sectionDict = [self.dataSourceArray objectAtIndex:indexPath.section];
     NSArray *array = [sectionDict objectForKey:@"array"];
     NSDictionary *dict = [array objectAtIndex:indexPath.row];
     cell.textLabel.text = [dict objectForKey:@"title"];
-
+    
+    NSInteger i = 0;
+    NSInteger j = 1;
+    while (i < indexPath.section) {
+        NSDictionary *sectionDict = [self.dataSourceArray objectAtIndex:i];
+        NSArray *array = [sectionDict objectForKey:@"array"];
+        j += array.count;
+        i += 1;
+    }
+    j += indexPath.row;
+    
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%ld",j];
     return cell;
 }
 
@@ -185,7 +196,9 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     NSDictionary *sectionDict = [self.dataSourceArray objectAtIndex:section];
-    return [sectionDict objectForKey:@"title"];
+    NSArray *array = [sectionDict objectForKey:@"array"];
+
+    return [NSString stringWithFormat:@"%@-%ld",[sectionDict objectForKey:@"title"],array.count];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
