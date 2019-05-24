@@ -25,13 +25,22 @@
         @{
             @"title": @"对象创建",
             @"array": @[
+                    @{
+                        @"title": @"简单工厂",
+                        @"page": @"DYSSimpleFactoryViewController"
+                        },
+                    @{
+                        @"title": @"工厂方法",
+                        @"page": @"DYSFactoryMethodViewController"
+                        },
+                    @{
+                        @"title": @"抽象工厂",
+                        @"page": @"DYSAbstractFactoryViewController"
+                        },
+
                 @{
                    @"title": @"原型",
                    @"page": @"DYSPrototypeViewController"
-                },
-                @{
-                   @"title": @"工厂方法",
-                   @"page": @"DYSFactoryMethodViewController"
                 },
                 @{
                    @"title": @"生成器/建造者",
