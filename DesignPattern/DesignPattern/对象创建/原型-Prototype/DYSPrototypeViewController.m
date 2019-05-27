@@ -5,6 +5,24 @@
 //  Created by 丁玉松 on 2018/12/12.
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
+/*
+ 
+ 设计模式分为：
+ 目的：创建型，结构型，行为型
+ 范围：类，对象
+ 原型模式是「创建型类模式」
+ 
+ 
+ 参与者：
+ Prototype/AbstractPrototype
+    声明一个克隆自身的接口。
+ ConcretePrototype
+    实现一个clone自身的操作。
+ Client
+    让一个原型clone自身从而创建一个新的对象。
+ 
+ 
+ */
 
 #import "DYSPrototypeViewController.h"
 

@@ -5,7 +5,30 @@
 //  Created by DingYusong on 2019/3/8.
 //  Copyright © 2019 丁玉松. All rights reserved.
 //
-
+/*
+  将⼀一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不不同的表示。
+ 
+ 
+ 参与者：
+ ・Builder
+    为创建一个Product对象的各个部件指定抽象接口。
+ ・ConcreteBuilder
+    实现Builder的接口以构造和装配该产品的各个部件。
+    定义并明确他所创建的表示
+    提供一个检索产品的接口
+ ・Director
+    构造一个使用Builder的接口
+ ・Product
+    被构造的复杂对象
+    含定义组成部件的类，包括将这些部件装配成最终产品的接口
+ 
+ 协作：
+ ・客户创建Director对象，并⽤用它所想要的Builder对象进⾏行行
+ ・⼀一旦产品部件被⽣生成，导向器器就会通知
+ ・⽣生成器器处理理导向器器的请求，并将部件添加到该
+ ・客户从⽣生成器器中检索
+ 
+ */
 #import "DYSBuilderViewController.h"
 
 #import "DYSFatPersonBuilder.h"

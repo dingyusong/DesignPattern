@@ -23,6 +23,15 @@
     self.title = @"设计模式";
     self.dataSourceArray = @[
         @{
+            @"title": @"设计模式基本原则",
+            @"array": @[
+                    @{
+                        @"title": @"单一职责原则",
+                        @"page": @"DYSRule01ViewController"
+                    },
+                ]
+        },
+        @{
             @"title": @"对象创建",
             @"array": @[
                     @{

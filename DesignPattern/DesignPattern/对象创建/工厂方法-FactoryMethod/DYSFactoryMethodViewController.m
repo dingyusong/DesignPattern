@@ -21,6 +21,33 @@
  主要帮助老人做洗衣服，打扫卫生，买菜这些活。
  
  */
+
+/*
+ 
+ 设计模式分为：
+ 目的：创建型，结构型，行为型
+ 范围：类，对象
+ 工厂方法模式是「创建型类模式」
+ 
+ 创建型类模式将对象的部分创建⼯作延迟到子类，而创建型对象模式则将它延迟到另⼀个对象中。
+ UndergraduateLeiFengFactory 和 VolunteerLeiFengFactory 都是LeiFengFactory的子类 LeiFeng的实例化都是由这些子类完成的。
+ 
+ 原则：
+ 针对接口编程，而不是针对实现编程。createUser，insertUser，gotUser 这些都是定义的抽象接口
+ 
+ 参与者：
+ AbstractFactory
+ 
+ ConcreteFactory
+ 
+ AbstractProduct
+ 
+ ConcreteProduct
+ 
+ 协作：
+ AbstractFactory 依赖其子类来定义工厂方法，所以他返回一个对用的ConcreteProduct。
+ 
+ */
 @interface DYSFactoryMethodViewController ()
 
 @end
