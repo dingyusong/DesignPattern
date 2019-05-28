@@ -146,7 +146,7 @@
 		35FF5AE82237FBD20079C123 /* DYSStudent1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent1.m; sourceTree = "<group>"; };
 		35FF5AE92237FBD20079C123 /* DYSStudent1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSStudent1.h; sourceTree = "<group>"; };
 		35FF5AEA2237FBD20079C123 /* DYSAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSAdapterProtocol.h; sourceTree = "<group>"; };
-		35FF5AEC2237FBD20079C123 /* DYSAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSAdapter.h; sourceTree = "<group>"; };
+		35FF5AEC2237FBD20079C123 /* DYSAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYSAdapter.h; path = ../DYSAdapter.h; sourceTree = "<group>"; };
 		35FF5AED2237FBD20079C123 /* DYSAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSAdapter.m; sourceTree = "<group>"; };
 		35FF5AEF2237FBD20079C123 /* DYSPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPeople.h; sourceTree = "<group>"; };
 		35FF5AF02237FBD20079C123 /* DYSPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSPeople.m; sourceTree = "<group>"; };
@@ -299,6 +299,8 @@
 		F7279996229BD864004ECCE8 /* DYSRule01Demo03FactoryA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSRule01Demo03FactoryA.m; sourceTree = "<group>"; };
 		F7279998229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSRule01Demo03FactoryB.h; sourceTree = "<group>"; };
 		F7279999229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSRule01Demo03FactoryB.m; sourceTree = "<group>"; };
+		F72799AA229D1716004ECCE8 /* DYSAbstractHandsetBrandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAbstractHandsetBrandProtocol.h; sourceTree = "<group>"; };
+		F72799AB229D17D8004ECCE8 /* DYSAbstractHandsetBrandRefinedProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAbstractHandsetBrandRefinedProtocol.h; sourceTree = "<group>"; };
 		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
 		F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPrototypeViewController.h; sourceTree = "<group>"; };
@@ -416,8 +418,7 @@
 		35FF5AE42237FBD20079C123 /* 客户类 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5AE52237FBD20079C123 /* DYSCourse.h */,
-				35FF5AE62237FBD20079C123 /* DYSCourse.m */,
+				F72799A9229CE7E1004ECCE8 /* Client */,
 			);
 			path = "客户类";
 			sourceTree = "<group>";
@@ -427,7 +428,7 @@
 			children = (
 				35FF5AE82237FBD20079C123 /* DYSStudent1.m */,
 				35FF5AE92237FBD20079C123 /* DYSStudent1.h */,
-				35FF5AEA2237FBD20079C123 /* DYSAdapterProtocol.h */,
+				F72799A6229CE7A6004ECCE8 /* Target */,
 				35FF5AEB2237FBD20079C123 /* 新增的适配器 */,
 			);
 			path = "适配器类";
@@ -436,8 +437,7 @@
 		35FF5AEB2237FBD20079C123 /* 新增的适配器 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5AEC2237FBD20079C123 /* DYSAdapter.h */,
-				35FF5AED2237FBD20079C123 /* DYSAdapter.m */,
+				F72799A7229CE7BE004ECCE8 /* Adapter */,
 			);
 			path = "新增的适配器";
 			sourceTree = "<group>";
@@ -445,8 +445,7 @@
 		35FF5AEE2237FBD20079C123 /* 原来不可修改的类 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5AEF2237FBD20079C123 /* DYSPeople.h */,
-				35FF5AF02237FBD20079C123 /* DYSPeople.m */,
+				F72799A8229CE7CC004ECCE8 /* Adaptee */,
 			);
 			path = "原来不可修改的类";
 			sourceTree = "<group>";
@@ -473,12 +472,8 @@
 		35FF5AFA2237FE9F0079C123 /* 手机品牌 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B002237FE9F0079C123 /* DYSAbstractHandsetBrand.h */,
-				35FF5AFD2237FE9F0079C123 /* DYSAbstractHandsetBrand.m */,
-				35FF5AFB2237FE9F0079C123 /* DYSHandsetBrandM.h */,
-				35FF5AFE2237FE9F0079C123 /* DYSHandsetBrandM.m */,
-				35FF5AFC2237FE9F0079C123 /* DYSHandsetBrandN.h */,
-				35FF5AFF2237FE9F0079C123 /* DYSHandsetBrandN.m */,
+				F72799AC229D1A57004ECCE8 /* Abstraction */,
+				F72799AD229D1A68004ECCE8 /* RefinedAbstraction */,
 			);
 			path = "手机品牌";
 			sourceTree = "<group>";
@@ -486,11 +481,8 @@
 		35FF5B012237FE9F0079C123 /* 手机软件 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B052237FE9F0079C123 /* DYSHandsetSoftProtocol.h */,
-				35FF5B042237FE9F0079C123 /* DYSHandsetGame.h */,
-				35FF5B022237FE9F0079C123 /* DYSHandsetGame.m */,
-				35FF5B062237FE9F0079C123 /* DYSHandsetAddressList.h */,
-				35FF5B032237FE9F0079C123 /* DYSHandsetAddressList.m */,
+				F72799AE229D1A76004ECCE8 /* Implementor */,
+				F72799AF229D1A7F004ECCE8 /* ConcreteImplementor */,
 			);
 			path = "手机软件";
 			sourceTree = "<group>";
@@ -1107,6 +1099,82 @@
 				358F623D2232BDED003DC180 /* VolunteerLeiFeng.m */,
 			);
 			path = ConcreteProduct;
+			sourceTree = "<group>";
+		};
+		F72799A6229CE7A6004ECCE8 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5AEA2237FBD20079C123 /* DYSAdapterProtocol.h */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		F72799A7229CE7BE004ECCE8 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5AEC2237FBD20079C123 /* DYSAdapter.h */,
+				35FF5AED2237FBD20079C123 /* DYSAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F72799A8229CE7CC004ECCE8 /* Adaptee */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5AEF2237FBD20079C123 /* DYSPeople.h */,
+				35FF5AF02237FBD20079C123 /* DYSPeople.m */,
+			);
+			path = Adaptee;
+			sourceTree = "<group>";
+		};
+		F72799A9229CE7E1004ECCE8 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5AE52237FBD20079C123 /* DYSCourse.h */,
+				35FF5AE62237FBD20079C123 /* DYSCourse.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		F72799AC229D1A57004ECCE8 /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				F72799AA229D1716004ECCE8 /* DYSAbstractHandsetBrandProtocol.h */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		F72799AD229D1A68004ECCE8 /* RefinedAbstraction */ = {
+			isa = PBXGroup;
+			children = (
+				F72799AB229D17D8004ECCE8 /* DYSAbstractHandsetBrandRefinedProtocol.h */,
+				35FF5B002237FE9F0079C123 /* DYSAbstractHandsetBrand.h */,
+				35FF5AFD2237FE9F0079C123 /* DYSAbstractHandsetBrand.m */,
+				35FF5AFB2237FE9F0079C123 /* DYSHandsetBrandM.h */,
+				35FF5AFE2237FE9F0079C123 /* DYSHandsetBrandM.m */,
+				35FF5AFC2237FE9F0079C123 /* DYSHandsetBrandN.h */,
+				35FF5AFF2237FE9F0079C123 /* DYSHandsetBrandN.m */,
+			);
+			path = RefinedAbstraction;
+			sourceTree = "<group>";
+		};
+		F72799AE229D1A76004ECCE8 /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B052237FE9F0079C123 /* DYSHandsetSoftProtocol.h */,
+			);
+			path = Implementor;
+			sourceTree = "<group>";
+		};
+		F72799AF229D1A7F004ECCE8 /* ConcreteImplementor */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B042237FE9F0079C123 /* DYSHandsetGame.h */,
+				35FF5B022237FE9F0079C123 /* DYSHandsetGame.m */,
+				35FF5B062237FE9F0079C123 /* DYSHandsetAddressList.h */,
+				35FF5B032237FE9F0079C123 /* DYSHandsetAddressList.m */,
+			);
+			path = ConcreteImplementor;
 			sourceTree = "<group>";
 		};
 		F74736F7222FA0D2003BE550 /* Demo01 */ = {

@@ -15,4 +15,8 @@
     [self.soft run];
 }
 
+@synthesize brandName;
+
+@synthesize soft;
+
 @end

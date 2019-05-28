@@ -5,7 +5,18 @@
 //  Created by DingYusong on 2019/3/9.
 //  Copyright © 2019 丁玉松. All rights reserved.
 //
-
+/*
+ 意图：
+ 保证一个类仅有一个实例，并提供一个访问他的全局访问点。
+ 
+ 参与者：
+ Singleton，定义一个instance操作，允许客户访问其唯一实例。Instance是一个类操作（即Smalltalk中的一个类方法和C++中的一个静态成员函数）。
+ 
+ 协作：
+ 客户只能通过iSingleton的Instance操作访问一个Singleton实例。
+ 
+ 
+ */
 #import "DYSSingletonViewController.h"
 #import "People.h"
 
