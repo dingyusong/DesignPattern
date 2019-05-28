@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DYSCompanyComponentProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSFinanceDepartment : NSObject
+@interface DYSFinanceDepartment : NSObject<DYSCompanyComponentProtocol>
+@property(nonatomic,copy)NSString *name;
+-(instancetype)initWithName:(NSString *)name;
 
 @end
 

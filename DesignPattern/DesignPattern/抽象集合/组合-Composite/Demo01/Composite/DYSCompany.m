@@ -1,20 +1,20 @@
 //
-//  DYSCompanyComposite.m
+//  DYSCompany.m
 //  DesignPattern
 //
 //  Created by 丁玉松 on 2019/5/28.
 //  Copyright © 2019 丁玉松. All rights reserved.
 //
 
-#import "DYSCompanyComposite.h"
+#import "DYSCompany.h"
 
-@interface DYSCompanyComposite ()
+@interface DYSCompany ()
 
 @property(nonatomic,strong)NSMutableArray *childList;
 
 @end
 
-@implementation DYSCompanyComposite
+@implementation DYSCompany
 -(instancetype)initWithName:(NSString *)name{
     self = [super init];
     if (self) {

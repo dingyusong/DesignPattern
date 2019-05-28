@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DYSCompanyComponentProtocol <NSObject>
 
+-(void)add:(id<DYSCompanyComponentProtocol>)company;
+-(void)remove:(id<DYSCompanyComponentProtocol>)company;
+-(void)display;
+-(void)lineofDuty;
+
 @end
 
 NS_ASSUME_NONNULL_END

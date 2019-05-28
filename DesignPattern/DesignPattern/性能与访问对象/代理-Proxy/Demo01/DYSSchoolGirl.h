@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DYSSchoolGirl : NSObject
+@property(nonatomic,strong)NSString *name;
 
 @end
 

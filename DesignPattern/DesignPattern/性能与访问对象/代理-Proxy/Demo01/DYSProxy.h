@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DYSGiveGiftProtocol.h"
+
+@class DYSSchoolGirl,DYSPursuit;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSProxy : NSObject
+@interface DYSProxy : NSObject<DYSGiveGiftProtocol>
+-(instancetype)initWithSchoolGirl:(DYSSchoolGirl *)schoolGirl;
 
 @end
 

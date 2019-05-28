@@ -9,5 +9,8 @@
 #import "DYSConcreteWebSite.h"
 
 @implementation DYSConcreteWebSite
+-(void)use:(DYSFWUser *)user{
+    NSLog(@"网站分类:%@,用户:%@",self.webName,user.name);
+}
 
 @end

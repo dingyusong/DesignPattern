@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DYSWebSideProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSConcreteWebSite : NSObject
+@interface DYSConcreteWebSite : NSObject<DYSWebSideProtocol>
+@property(nonatomic,strong)NSString *webName;
 
 @end
 

@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DYSWebSideProtocol.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DYSWebSiteFactory : NSObject
+@property(nonatomic,strong)NSDictionary *flyweights;
+
+-(id<DYSWebSideProtocol> )getWebSiteCategory:(NSString *)webkey;
+-(NSInteger)getWebSiteCount;
 
 @end
 

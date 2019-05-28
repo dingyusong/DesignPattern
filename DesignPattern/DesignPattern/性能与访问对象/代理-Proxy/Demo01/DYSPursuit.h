@@ -1,5 +1,5 @@
 //
-//  DYSPursiut.h
+//  DYSPursuit.h
 //  DesignPattern
 //
 //  Created by 丁玉松 on 2019/5/28.
@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSPursiut : NSObject<DYSGiveGiftProtocol>
+@interface DYSPursuit : NSObject<DYSGiveGiftProtocol>
 -(instancetype)initWithSchoolGirl:(DYSSchoolGirl *)schoolGirl;
 
 @end

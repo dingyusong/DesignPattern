@@ -97,6 +97,17 @@
 		F7279994229BD68C004ECCE8 /* DYSRule01AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279993229BD68C004ECCE8 /* DYSRule01AbstractFactory.m */; };
 		F7279997229BD864004ECCE8 /* DYSRule01Demo03FactoryA.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279996229BD864004ECCE8 /* DYSRule01Demo03FactoryA.m */; };
 		F727999A229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279999229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.m */; };
+		F72799B8229D23C1004ECCE8 /* DYSCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799B7229D23C1004ECCE8 /* DYSCompany.m */; };
+		F72799BB229D247E004ECCE8 /* DYSHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799BA229D247E004ECCE8 /* DYSHRDepartment.m */; };
+		F72799BE229D248F004ECCE8 /* DYSFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799BD229D248F004ECCE8 /* DYSFinanceDepartment.m */; };
+		F72799CA229D383F004ECCE8 /* DYSFlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799C9229D383F004ECCE8 /* DYSFlyweightViewController.m */; };
+		F72799D3229D3BAA004ECCE8 /* DYSFWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799D2229D3BAA004ECCE8 /* DYSFWUser.m */; };
+		F72799D6229D3BE5004ECCE8 /* DYSConcreteWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799D5229D3BE5004ECCE8 /* DYSConcreteWebSite.m */; };
+		F72799D9229D3C50004ECCE8 /* DYSWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799D8229D3C50004ECCE8 /* DYSWebSiteFactory.m */; };
+		F72799DC229D3FD7004ECCE8 /* DYSProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799DB229D3FD7004ECCE8 /* DYSProxyViewController.m */; };
+		F72799E1229D4523004ECCE8 /* DYSPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E0229D4523004ECCE8 /* DYSPursuit.m */; };
+		F72799E4229D456C004ECCE8 /* DYSSchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E3229D456C004ECCE8 /* DYSSchoolGirl.m */; };
+		F72799E7229D45D4004ECCE8 /* DYSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E6229D45D4004ECCE8 /* DYSProxy.m */; };
 		F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736F8222FA0D2003BE550 /* DYSStudent.m */; };
 		F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FE222FA0D2003BE550 /* DYSTeacher.m */; };
 		F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */; };
@@ -301,6 +312,31 @@
 		F7279999229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSRule01Demo03FactoryB.m; sourceTree = "<group>"; };
 		F72799AA229D1716004ECCE8 /* DYSAbstractHandsetBrandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAbstractHandsetBrandProtocol.h; sourceTree = "<group>"; };
 		F72799AB229D17D8004ECCE8 /* DYSAbstractHandsetBrandRefinedProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAbstractHandsetBrandRefinedProtocol.h; sourceTree = "<group>"; };
+		F72799B5229D2350004ECCE8 /* DYSCompanyComponentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSCompanyComponentProtocol.h; sourceTree = "<group>"; };
+		F72799B6229D23C1004ECCE8 /* DYSCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSCompany.h; sourceTree = "<group>"; };
+		F72799B7229D23C1004ECCE8 /* DYSCompany.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSCompany.m; sourceTree = "<group>"; };
+		F72799B9229D247E004ECCE8 /* DYSHRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSHRDepartment.h; sourceTree = "<group>"; };
+		F72799BA229D247E004ECCE8 /* DYSHRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSHRDepartment.m; sourceTree = "<group>"; };
+		F72799BC229D248F004ECCE8 /* DYSFinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSFinanceDepartment.h; sourceTree = "<group>"; };
+		F72799BD229D248F004ECCE8 /* DYSFinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSFinanceDepartment.m; sourceTree = "<group>"; };
+		F72799C8229D383F004ECCE8 /* DYSFlyweightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSFlyweightViewController.h; sourceTree = "<group>"; };
+		F72799C9229D383F004ECCE8 /* DYSFlyweightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSFlyweightViewController.m; sourceTree = "<group>"; };
+		F72799D0229D3B7C004ECCE8 /* DYSWebSideProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSWebSideProtocol.h; sourceTree = "<group>"; };
+		F72799D1229D3BAA004ECCE8 /* DYSFWUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSFWUser.h; sourceTree = "<group>"; };
+		F72799D2229D3BAA004ECCE8 /* DYSFWUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSFWUser.m; sourceTree = "<group>"; };
+		F72799D4229D3BE5004ECCE8 /* DYSConcreteWebSite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSConcreteWebSite.h; sourceTree = "<group>"; };
+		F72799D5229D3BE5004ECCE8 /* DYSConcreteWebSite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSConcreteWebSite.m; sourceTree = "<group>"; };
+		F72799D7229D3C50004ECCE8 /* DYSWebSiteFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSWebSiteFactory.h; sourceTree = "<group>"; };
+		F72799D8229D3C50004ECCE8 /* DYSWebSiteFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSWebSiteFactory.m; sourceTree = "<group>"; };
+		F72799DA229D3FD7004ECCE8 /* DYSProxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSProxyViewController.h; sourceTree = "<group>"; };
+		F72799DB229D3FD7004ECCE8 /* DYSProxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSProxyViewController.m; sourceTree = "<group>"; };
+		F72799DE229D44EB004ECCE8 /* DYSGiveGiftProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSGiveGiftProtocol.h; sourceTree = "<group>"; };
+		F72799DF229D4523004ECCE8 /* DYSPursuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSPursuit.h; sourceTree = "<group>"; };
+		F72799E0229D4523004ECCE8 /* DYSPursuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSPursuit.m; sourceTree = "<group>"; };
+		F72799E2229D456C004ECCE8 /* DYSSchoolGirl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSSchoolGirl.h; sourceTree = "<group>"; };
+		F72799E3229D456C004ECCE8 /* DYSSchoolGirl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSSchoolGirl.m; sourceTree = "<group>"; };
+		F72799E5229D45D4004ECCE8 /* DYSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSProxy.h; sourceTree = "<group>"; };
+		F72799E6229D45D4004ECCE8 /* DYSProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSProxy.m; sourceTree = "<group>"; };
 		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
 		F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPrototypeViewController.h; sourceTree = "<group>"; };
@@ -510,14 +546,8 @@
 		35FF5B14223800B00079C123 /* Demo01 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B15223800B00079C123 /* DYSRealty.h */,
-				35FF5B16223800B00079C123 /* DYSStock.m */,
-				35FF5B17223800B00079C123 /* DYSFacade.m */,
-				35FF5B18223800B00079C123 /* DYSNationalDebt.h */,
-				35FF5B19223800B00079C123 /* DYSRealty.m */,
-				35FF5B1A223800B00079C123 /* DYSFacade.h */,
-				35FF5B1B223800B00079C123 /* DYSStock.h */,
-				35FF5B1C223800B00079C123 /* DYSNationalDebt.m */,
+				F72799C3229D3213004ECCE8 /* Facade */,
+				F72799C4229D321F004ECCE8 /* Subsystem */,
 			);
 			path = Demo01;
 			sourceTree = "<group>";
@@ -597,6 +627,7 @@
 			children = (
 				35FF5B422238036B0079C123 /* DYSCompositeViewController.h */,
 				35FF5B432238036B0079C123 /* DYSCompositeViewController.m */,
+				F72799B4229D2053004ECCE8 /* Demo01 */,
 			);
 			path = "组合-Composite";
 			sourceTree = "<group>";
@@ -633,9 +664,9 @@
 		35FF5B47223804700079C123 /* 装饰器-Decorator */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B63223805C70079C123 /* Demo01 */,
 				35FF5B4C223804E30079C123 /* DYSDecoratorViewController.h */,
 				35FF5B4D223804E30079C123 /* DYSDecoratorViewController.m */,
+				35FF5B63223805C70079C123 /* Demo01 */,
 			);
 			path = "装饰器-Decorator";
 			sourceTree = "<group>";
@@ -687,10 +718,8 @@
 		35FF5B64223805C70079C123 /* 被装饰的类 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B65223805C70079C123 /* DYSAbstractComponent.h */,
-				35FF5B66223805C70079C123 /* DYSComponent.m */,
-				35FF5B67223805C70079C123 /* DYSAbstractComponent.m */,
-				35FF5B68223805C70079C123 /* DYSComponent.h */,
+				F72799C2229D305E004ECCE8 /* Component */,
+				F72799C1229D3054004ECCE8 /* ConcreteComponent */,
 			);
 			path = "被装饰的类";
 			sourceTree = "<group>";
@@ -698,12 +727,8 @@
 		35FF5B69223805C70079C123 /* 装饰器 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B6A223805C70079C123 /* DYSDecorator1.m */,
-				35FF5B6B223805C70079C123 /* DYSAbstractDecorator.h */,
-				35FF5B6C223805C70079C123 /* DYSDecorator2.m */,
-				35FF5B6D223805C70079C123 /* DYSDecorator1.h */,
-				35FF5B6E223805C70079C123 /* DYSDecorator2.h */,
-				35FF5B6F223805C70079C123 /* DYSAbstractDecorator.m */,
+				F72799C0229D3044004ECCE8 /* Decorator */,
+				F72799BF229D3037004ECCE8 /* ConcreteDecorator */,
 			);
 			path = "装饰器";
 			sourceTree = "<group>";
@@ -1177,6 +1202,193 @@
 			path = ConcreteImplementor;
 			sourceTree = "<group>";
 		};
+		F72799B0229D2024004ECCE8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F72799B5229D2350004ECCE8 /* DYSCompanyComponentProtocol.h */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F72799B1229D202F004ECCE8 /* Leaf */ = {
+			isa = PBXGroup;
+			children = (
+				F72799B9229D247E004ECCE8 /* DYSHRDepartment.h */,
+				F72799BA229D247E004ECCE8 /* DYSHRDepartment.m */,
+				F72799BC229D248F004ECCE8 /* DYSFinanceDepartment.h */,
+				F72799BD229D248F004ECCE8 /* DYSFinanceDepartment.m */,
+			);
+			path = Leaf;
+			sourceTree = "<group>";
+		};
+		F72799B2229D2034004ECCE8 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				F72799B6229D23C1004ECCE8 /* DYSCompany.h */,
+				F72799B7229D23C1004ECCE8 /* DYSCompany.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		F72799B4229D2053004ECCE8 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F72799B0229D2024004ECCE8 /* Component */,
+				F72799B2229D2034004ECCE8 /* Composite */,
+				F72799B1229D202F004ECCE8 /* Leaf */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F72799BF229D3037004ECCE8 /* ConcreteDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B6D223805C70079C123 /* DYSDecorator1.h */,
+				35FF5B6A223805C70079C123 /* DYSDecorator1.m */,
+				35FF5B6E223805C70079C123 /* DYSDecorator2.h */,
+				35FF5B6C223805C70079C123 /* DYSDecorator2.m */,
+			);
+			path = ConcreteDecorator;
+			sourceTree = "<group>";
+		};
+		F72799C0229D3044004ECCE8 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B6B223805C70079C123 /* DYSAbstractDecorator.h */,
+				35FF5B6F223805C70079C123 /* DYSAbstractDecorator.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		F72799C1229D3054004ECCE8 /* ConcreteComponent */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B68223805C70079C123 /* DYSComponent.h */,
+				35FF5B66223805C70079C123 /* DYSComponent.m */,
+			);
+			path = ConcreteComponent;
+			sourceTree = "<group>";
+		};
+		F72799C2229D305E004ECCE8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B65223805C70079C123 /* DYSAbstractComponent.h */,
+				35FF5B67223805C70079C123 /* DYSAbstractComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F72799C3229D3213004ECCE8 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B1A223800B00079C123 /* DYSFacade.h */,
+				35FF5B17223800B00079C123 /* DYSFacade.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		F72799C4229D321F004ECCE8 /* Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B15223800B00079C123 /* DYSRealty.h */,
+				35FF5B19223800B00079C123 /* DYSRealty.m */,
+				35FF5B1B223800B00079C123 /* DYSStock.h */,
+				35FF5B16223800B00079C123 /* DYSStock.m */,
+				35FF5B18223800B00079C123 /* DYSNationalDebt.h */,
+				35FF5B1C223800B00079C123 /* DYSNationalDebt.m */,
+			);
+			path = Subsystem;
+			sourceTree = "<group>";
+		};
+		F72799C5229D3567004ECCE8 /* 性能与访问对象 */ = {
+			isa = PBXGroup;
+			children = (
+				F72799C7229D35BA004ECCE8 /* 代理-Proxy */,
+				F72799C6229D35B3004ECCE8 /* 享元-Flyweight */,
+			);
+			path = "性能与访问对象";
+			sourceTree = "<group>";
+		};
+		F72799C6229D35B3004ECCE8 /* 享元-Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				F72799C8229D383F004ECCE8 /* DYSFlyweightViewController.h */,
+				F72799C9229D383F004ECCE8 /* DYSFlyweightViewController.m */,
+				F72799CB229D3847004ECCE8 /* Demo01 */,
+			);
+			path = "享元-Flyweight";
+			sourceTree = "<group>";
+		};
+		F72799C7229D35BA004ECCE8 /* 代理-Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				F72799DA229D3FD7004ECCE8 /* DYSProxyViewController.h */,
+				F72799DB229D3FD7004ECCE8 /* DYSProxyViewController.m */,
+				F72799DD229D44AF004ECCE8 /* Demo01 */,
+			);
+			path = "代理-Proxy";
+			sourceTree = "<group>";
+		};
+		F72799CB229D3847004ECCE8 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F72799CF229D3B51004ECCE8 /* FlyweightFactory */,
+				F72799CE229D3B4D004ECCE8 /* UnsharedConcreteFlyweight */,
+				F72799CD229D3B3E004ECCE8 /* ConcreteFlyweight */,
+				F72799CC229D3B36004ECCE8 /* Flyweight */,
+				F72799D1229D3BAA004ECCE8 /* DYSFWUser.h */,
+				F72799D2229D3BAA004ECCE8 /* DYSFWUser.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F72799CC229D3B36004ECCE8 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				F72799D0229D3B7C004ECCE8 /* DYSWebSideProtocol.h */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		F72799CD229D3B3E004ECCE8 /* ConcreteFlyweight */ = {
+			isa = PBXGroup;
+			children = (
+				F72799D4229D3BE5004ECCE8 /* DYSConcreteWebSite.h */,
+				F72799D5229D3BE5004ECCE8 /* DYSConcreteWebSite.m */,
+			);
+			path = ConcreteFlyweight;
+			sourceTree = "<group>";
+		};
+		F72799CE229D3B4D004ECCE8 /* UnsharedConcreteFlyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnsharedConcreteFlyweight;
+			sourceTree = "<group>";
+		};
+		F72799CF229D3B51004ECCE8 /* FlyweightFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F72799D7229D3C50004ECCE8 /* DYSWebSiteFactory.h */,
+				F72799D8229D3C50004ECCE8 /* DYSWebSiteFactory.m */,
+			);
+			path = FlyweightFactory;
+			sourceTree = "<group>";
+		};
+		F72799DD229D44AF004ECCE8 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F72799DE229D44EB004ECCE8 /* DYSGiveGiftProtocol.h */,
+				F72799DF229D4523004ECCE8 /* DYSPursuit.h */,
+				F72799E0229D4523004ECCE8 /* DYSPursuit.m */,
+				F72799E5229D45D4004ECCE8 /* DYSProxy.h */,
+				F72799E6229D45D4004ECCE8 /* DYSProxy.m */,
+				F72799E2229D456C004ECCE8 /* DYSSchoolGirl.h */,
+				F72799E3229D456C004ECCE8 /* DYSSchoolGirl.m */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
 		F74736F7222FA0D2003BE550 /* Demo01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1226,6 +1438,7 @@
 				35FF5B21223801840079C123 /* 对象去耦合 */,
 				35FF5AE22237FAC70079C123 /* 接口适配 */,
 				F7E290E621D72F1E00F8310A /* 对象创建 */,
+				F72799C5229D3567004ECCE8 /* 性能与访问对象 */,
 				F7AD1D4421D6189F0047F8CE /* AppDelegate.h */,
 				F7AD1D4521D6189F0047F8CE /* AppDelegate.m */,
 				F7AD1D4721D6189F0047F8CE /* ViewController.h */,
@@ -1334,6 +1547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72799D9229D3C50004ECCE8 /* DYSWebSiteFactory.m in Sources */,
 				F72799572297EADD004ECCE8 /* AbstractDBFactory.m in Sources */,
 				35FF5B61223805310079C123 /* DYSAbstractChain.m in Sources */,
 				35FF5AF42237FBD20079C123 /* DYSPeople.m in Sources */,
@@ -1351,20 +1565,27 @@
 				35FF5AF22237FBD20079C123 /* DYSStudent1.m in Sources */,
 				35FF5B37223802000079C123 /* DYSMediatorViewController.m in Sources */,
 				358F62482232BDEE003DC180 /* LeiFeng.m in Sources */,
+				F72799DC229D3FD7004ECCE8 /* DYSProxyViewController.m in Sources */,
 				F727999A229BD87D004ECCE8 /* DYSRule01Demo03FactoryB.m in Sources */,
 				F7279983229BCEB1004ECCE8 /* DYSRule01ViewController.m in Sources */,
 				F70966692238A35200AF3A8A /* DYSAnsweredPaper2.m in Sources */,
 				35FF5B51223804F30079C123 /* DYSVisitorViewController.m in Sources */,
 				35FF5B1D223800B00079C123 /* DYSStock.m in Sources */,
+				F72799BB229D247E004ECCE8 /* DYSHRDepartment.m in Sources */,
 				F727998B229BD524004ECCE8 /* DYSRule01FactoryA.m in Sources */,
 				F727997C2297EEF7004ECCE8 /* OperateBase.m in Sources */,
+				F72799CA229D383F004ECCE8 /* DYSFlyweightViewController.m in Sources */,
 				35FF5B30223801DE0079C123 /* DYSAbstractColleague.m in Sources */,
 				35FF5B71223805C70079C123 /* DYSAbstractComponent.m in Sources */,
 				358F624A2232BDEE003DC180 /* LeiFengFactory.m in Sources */,
+				F72799D6229D3BE5004ECCE8 /* DYSConcreteWebSite.m in Sources */,
+				F72799E4229D456C004ECCE8 /* DYSSchoolGirl.m in Sources */,
 				F72799632297EB08004ECCE8 /* AbstractUseAccess.m in Sources */,
 				35FF5B442238036B0079C123 /* DYSCompositeViewController.m in Sources */,
 				F72799642297EB08004ECCE8 /* MySqlUser.m in Sources */,
 				358F62362232BDC0003DC180 /* DYSFactoryMethodViewController.m in Sources */,
+				F72799E1229D4523004ECCE8 /* DYSPursuit.m in Sources */,
+				F72799BE229D248F004ECCE8 /* DYSFinanceDepartment.m in Sources */,
 				35FF5B1E223800B00079C123 /* DYSFacade.m in Sources */,
 				35FF5B20223800B00079C123 /* DYSNationalDebt.m in Sources */,
 				35FF5AF32237FBD20079C123 /* DYSAdapter.m in Sources */,
@@ -1398,6 +1619,7 @@
 				F7279997229BD864004ECCE8 /* DYSRule01Demo03FactoryA.m in Sources */,
 				F727996E2297EC42004ECCE8 /* User.m in Sources */,
 				35FF5B72223805C70079C123 /* DYSDecorator1.m in Sources */,
+				F72799D3229D3BAA004ECCE8 /* DYSFWUser.m in Sources */,
 				358F62462232BDEE003DC180 /* VolunteerLeiFeng.m in Sources */,
 				35FF5B74223805C70079C123 /* DYSAbstractDecorator.m in Sources */,
 				35FF5B86223806440079C123 /* DYSVisitor1.m in Sources */,
@@ -1407,6 +1629,7 @@
 				35FF5B072237FE9F0079C123 /* DYSAbstractHandsetBrand.m in Sources */,
 				35FF5B87223806440079C123 /* DYSVisitor2.m in Sources */,
 				35FF5B0F2237FECF0079C123 /* DYSBridgeViewController.m in Sources */,
+				F72799B8229D23C1004ECCE8 /* DYSCompany.m in Sources */,
 				35FF5B4E223804E30079C123 /* DYSDecoratorViewController.m in Sources */,
 				35FF5B60223805310079C123 /* DYSChainZongJinLi.m in Sources */,
 				35FF5B1F223800B00079C123 /* DYSRealty.m in Sources */,
@@ -1423,6 +1646,7 @@
 				F70966682238A35200AF3A8A /* DYSAnsweredPaper1.m in Sources */,
 				F727997D2297EEF7004ECCE8 /* OperateAdd.m in Sources */,
 				358F626722336B03003DC180 /* WaterVat.m in Sources */,
+				F72799E7229D45D4004ECCE8 /* DYSProxy.m in Sources */,
 				358F62472232BDEE003DC180 /* UndergraduateLeiFengFactory.m in Sources */,
 				35FF5B0B2237FE9F0079C123 /* DYSHandsetAddressList.m in Sources */,
 				35FF5B0A2237FE9F0079C123 /* DYSHandsetGame.m in Sources */,

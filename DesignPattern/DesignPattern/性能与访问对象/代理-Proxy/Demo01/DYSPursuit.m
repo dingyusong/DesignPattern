@@ -1,18 +1,18 @@
 //
-//  DYSPursiut.m
+//  DYSPursuit.m
 //  DesignPattern
 //
 //  Created by 丁玉松 on 2019/5/28.
 //  Copyright © 2019 丁玉松. All rights reserved.
 //
 
-#import "DYSPursiut.h"
+#import "DYSPursuit.h"
 
-@interface DYSPursiut ()
+@interface DYSPursuit ()
 @property(nonatomic,strong)DYSSchoolGirl *schoolGirl;
 @end
 
-@implementation DYSPursiut
+@implementation DYSPursuit
 
 -(instancetype)initWithSchoolGirl:(DYSSchoolGirl *)schoolGirl{
     self = [super init];

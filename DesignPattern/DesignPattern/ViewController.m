@@ -142,12 +142,12 @@
             @"title": @"性能与访问对象",
             @"array": @[
                 @{
-                   @"title": @"享元",
-                   @"page": @"DYSDemo01ViewController"
+                   @"title": @"享元-Flyweight",
+                   @"page": @"DYSFlyweightViewController"
                 },
                 @{
-                   @"title": @"代理",
-                   @"page": @"DYSDemo01ViewController"
+                   @"title": @"代理-Proxy",
+                   @"page": @"DYSProxyViewController"
                 },
             ]
         },

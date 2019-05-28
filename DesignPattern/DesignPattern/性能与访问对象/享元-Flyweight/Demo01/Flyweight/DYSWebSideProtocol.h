@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DYSFWUser.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol DYSWebSideProtocol <NSObject>
+
+-(void)use:(DYSFWUser *)user;
 
 @end
 

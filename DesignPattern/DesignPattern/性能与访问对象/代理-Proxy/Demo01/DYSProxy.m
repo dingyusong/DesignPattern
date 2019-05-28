@@ -7,7 +7,33 @@
 //
 
 #import "DYSProxy.h"
+#import "DYSSchoolGirl.h"
+#import "DYSPursuit.h"
+
+
+@interface DYSProxy ()
+@property (strong, nonatomic) DYSPursuit *pursuit;
+@end
 
 @implementation DYSProxy
+- (instancetype)initWithSchoolGirl:(DYSSchoolGirl *)schoolGirl {
+    self = [super init];
+    if (self) {
+        self.pursuit = [[DYSPursuit alloc] initWithSchoolGirl:schoolGirl];
+    }
+    return self;
+}
+
+- (void)giveDolls {
+    [self.pursuit giveDolls];
+}
+
+- (void)giveFlowers {
+    [self.pursuit giveFlowers];
+}
+
+- (void)giveChocolate {
+    [self.pursuit giveChocolate];
+}
 
 @end
