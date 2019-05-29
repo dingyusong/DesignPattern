@@ -116,7 +116,7 @@
                    @"page": @"DYSDecoratorViewController"
                 },
                 @{
-                   @"title": @"责任链",
+                   @"title": @"责任链-ResponseChain",
                    @"page": @"DYSResponseChainViewController"
                 },
             ]
@@ -133,8 +133,8 @@
                    @"page": @"DYSStrategyViewController"
                 },
                 @{
-                   @"title": @"命令",
-                   @"page": @"DYSDemo01ViewController"
+                   @"title": @"命令-Command",
+                   @"page": @"DYSCommandViewController"
                 },
             ]
         },

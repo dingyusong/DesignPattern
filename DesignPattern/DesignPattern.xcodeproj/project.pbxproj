@@ -108,6 +108,14 @@
 		F72799E1229D4523004ECCE8 /* DYSPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E0229D4523004ECCE8 /* DYSPursuit.m */; };
 		F72799E4229D456C004ECCE8 /* DYSSchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E3229D456C004ECCE8 /* DYSSchoolGirl.m */; };
 		F72799E7229D45D4004ECCE8 /* DYSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799E6229D45D4004ECCE8 /* DYSProxy.m */; };
+		F72799ED229E2FB6004ECCE8 /* DYSCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799EC229E2FB6004ECCE8 /* DYSCommandViewController.m */; };
+		F72799F7229E34AC004ECCE8 /* DYSAbstractOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799F6229E34AC004ECCE8 /* DYSAbstractOrder.m */; };
+		F72799FA229E34FB004ECCE8 /* DYSMuttonOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799F9229E34FB004ECCE8 /* DYSMuttonOrder.m */; };
+		F72799FD229E3635004ECCE8 /* DYSWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799FC229E3635004ECCE8 /* DYSWorker.m */; };
+		F7279A00229E364C004ECCE8 /* DYSWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = F72799FF229E364C004ECCE8 /* DYSWaiter.m */; };
+		F7279A03229E366F004ECCE8 /* DYSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279A02229E366F004ECCE8 /* DYSCustomer.m */; };
+		F7279A06229E36DE004ECCE8 /* DYSChickenOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279A05229E36DE004ECCE8 /* DYSChickenOrder.m */; };
+		F7279A09229E36ED004ECCE8 /* DYSDuckOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7279A08229E36ED004ECCE8 /* DYSDuckOrder.m */; };
 		F7473708222FA0D2003BE550 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736F8222FA0D2003BE550 /* DYSStudent.m */; };
 		F747370A222FA0D2003BE550 /* DYSTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FE222FA0D2003BE550 /* DYSTeacher.m */; };
 		F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74736FF222FA0D2003BE550 /* DYSPrototypeViewController.m */; };
@@ -337,6 +345,24 @@
 		F72799E3229D456C004ECCE8 /* DYSSchoolGirl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSSchoolGirl.m; sourceTree = "<group>"; };
 		F72799E5229D45D4004ECCE8 /* DYSProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSProxy.h; sourceTree = "<group>"; };
 		F72799E6229D45D4004ECCE8 /* DYSProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSProxy.m; sourceTree = "<group>"; };
+		F72799E9229E29BB004ECCE8 /* DYSChainProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSChainProtocol.h; sourceTree = "<group>"; };
+		F72799EB229E2FB6004ECCE8 /* DYSCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSCommandViewController.h; sourceTree = "<group>"; };
+		F72799EC229E2FB6004ECCE8 /* DYSCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSCommandViewController.m; sourceTree = "<group>"; };
+		F72799F4229E344C004ECCE8 /* DYSOrderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSOrderProtocol.h; sourceTree = "<group>"; };
+		F72799F5229E34AC004ECCE8 /* DYSAbstractOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAbstractOrder.h; sourceTree = "<group>"; };
+		F72799F6229E34AC004ECCE8 /* DYSAbstractOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSAbstractOrder.m; sourceTree = "<group>"; };
+		F72799F8229E34FB004ECCE8 /* DYSMuttonOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSMuttonOrder.h; sourceTree = "<group>"; };
+		F72799F9229E34FB004ECCE8 /* DYSMuttonOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSMuttonOrder.m; sourceTree = "<group>"; };
+		F72799FB229E3635004ECCE8 /* DYSWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSWorker.h; sourceTree = "<group>"; };
+		F72799FC229E3635004ECCE8 /* DYSWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSWorker.m; sourceTree = "<group>"; };
+		F72799FE229E364C004ECCE8 /* DYSWaiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSWaiter.h; sourceTree = "<group>"; };
+		F72799FF229E364C004ECCE8 /* DYSWaiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSWaiter.m; sourceTree = "<group>"; };
+		F7279A01229E366F004ECCE8 /* DYSCustomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSCustomer.h; sourceTree = "<group>"; };
+		F7279A02229E366F004ECCE8 /* DYSCustomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSCustomer.m; sourceTree = "<group>"; };
+		F7279A04229E36DE004ECCE8 /* DYSChickenOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSChickenOrder.h; sourceTree = "<group>"; };
+		F7279A05229E36DE004ECCE8 /* DYSChickenOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSChickenOrder.m; sourceTree = "<group>"; };
+		F7279A07229E36ED004ECCE8 /* DYSDuckOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDuckOrder.h; sourceTree = "<group>"; };
+		F7279A08229E36ED004ECCE8 /* DYSDuckOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDuckOrder.m; sourceTree = "<group>"; };
 		F74736F8222FA0D2003BE550 /* DYSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F74736F9222FA0D2003BE550 /* DYSTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSTeacher.h; sourceTree = "<group>"; };
 		F74736FA222FA0D2003BE550 /* DYSPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYSPrototypeViewController.h; sourceTree = "<group>"; };
@@ -674,9 +700,9 @@
 		35FF5B48223804A60079C123 /* 责任链-ResponseChain */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B52223805310079C123 /* Demo01 */,
 				35FF5B49223804C60079C123 /* DYSResponseChainViewController.h */,
 				35FF5B4A223804C60079C123 /* DYSResponseChainViewController.m */,
+				35FF5B52223805310079C123 /* Demo01 */,
 			);
 			path = "责任链-ResponseChain";
 			sourceTree = "<group>";
@@ -694,14 +720,8 @@
 		35FF5B55223805310079C123 /* 职责链 */ = {
 			isa = PBXGroup;
 			children = (
-				35FF5B57223805310079C123 /* DYSAbstractChain.h */,
-				35FF5B5B223805310079C123 /* DYSAbstractChain.m */,
-				35FF5B5C223805310079C123 /* DYSChainZhuGuan.h */,
-				35FF5B56223805310079C123 /* DYSChainZhuGuan.m */,
-				35FF5B58223805310079C123 /* DYSChainZongJinLi.h */,
-				35FF5B5A223805310079C123 /* DYSChainZongJinLi.m */,
-				35FF5B59223805310079C123 /* DYSChainBoss.h */,
-				35FF5B5D223805310079C123 /* DYSChainBoss.m */,
+				F72799E8229E2981004ECCE8 /* Handler */,
+				F72799EA229E2A5F004ECCE8 /* ConcreteHandler */,
 			);
 			path = "职责链";
 			sourceTree = "<group>";
@@ -773,7 +793,7 @@
 		F709665D22389D2C00AF3A8A /* 算法封装 */ = {
 			isa = PBXGroup;
 			children = (
-				F709666022389DCB00AF3A8A /* 命令 */,
+				F709666022389DCB00AF3A8A /* 命令-Command */,
 				F709665F22389DC100AF3A8A /* 策略-Strategy */,
 				F709665E22389D6F00AF3A8A /* 模板方法-Template */,
 			);
@@ -800,11 +820,14 @@
 			path = "策略-Strategy";
 			sourceTree = "<group>";
 		};
-		F709666022389DCB00AF3A8A /* 命令 */ = {
+		F709666022389DCB00AF3A8A /* 命令-Command */ = {
 			isa = PBXGroup;
 			children = (
+				F72799EB229E2FB6004ECCE8 /* DYSCommandViewController.h */,
+				F72799EC229E2FB6004ECCE8 /* DYSCommandViewController.m */,
+				F72799EE229E2FBB004ECCE8 /* Demo01 */,
 			);
-			path = "命令";
+			path = "命令-Command";
 			sourceTree = "<group>";
 		};
 		F70966612238A35200AF3A8A /* Demo01 */ = {
@@ -1389,6 +1412,91 @@
 			path = Demo01;
 			sourceTree = "<group>";
 		};
+		F72799E8229E2981004ECCE8 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				F72799E9229E29BB004ECCE8 /* DYSChainProtocol.h */,
+				35FF5B57223805310079C123 /* DYSAbstractChain.h */,
+				35FF5B5B223805310079C123 /* DYSAbstractChain.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		F72799EA229E2A5F004ECCE8 /* ConcreteHandler */ = {
+			isa = PBXGroup;
+			children = (
+				35FF5B5C223805310079C123 /* DYSChainZhuGuan.h */,
+				35FF5B56223805310079C123 /* DYSChainZhuGuan.m */,
+				35FF5B58223805310079C123 /* DYSChainZongJinLi.h */,
+				35FF5B5A223805310079C123 /* DYSChainZongJinLi.m */,
+				35FF5B59223805310079C123 /* DYSChainBoss.h */,
+				35FF5B5D223805310079C123 /* DYSChainBoss.m */,
+			);
+			path = ConcreteHandler;
+			sourceTree = "<group>";
+		};
+		F72799EE229E2FBB004ECCE8 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F72799F3229E3419004ECCE8 /* Receiver */,
+				F72799F2229E3414004ECCE8 /* Invoker */,
+				F72799F1229E3410004ECCE8 /* Client */,
+				F72799F0229E340B004ECCE8 /* ConcreteCommand */,
+				F72799EF229E3406004ECCE8 /* Command */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F72799EF229E3406004ECCE8 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				F72799F4229E344C004ECCE8 /* DYSOrderProtocol.h */,
+				F72799F5229E34AC004ECCE8 /* DYSAbstractOrder.h */,
+				F72799F6229E34AC004ECCE8 /* DYSAbstractOrder.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		F72799F0229E340B004ECCE8 /* ConcreteCommand */ = {
+			isa = PBXGroup;
+			children = (
+				F72799F8229E34FB004ECCE8 /* DYSMuttonOrder.h */,
+				F72799F9229E34FB004ECCE8 /* DYSMuttonOrder.m */,
+				F7279A04229E36DE004ECCE8 /* DYSChickenOrder.h */,
+				F7279A05229E36DE004ECCE8 /* DYSChickenOrder.m */,
+				F7279A07229E36ED004ECCE8 /* DYSDuckOrder.h */,
+				F7279A08229E36ED004ECCE8 /* DYSDuckOrder.m */,
+			);
+			path = ConcreteCommand;
+			sourceTree = "<group>";
+		};
+		F72799F1229E3410004ECCE8 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				F7279A01229E366F004ECCE8 /* DYSCustomer.h */,
+				F7279A02229E366F004ECCE8 /* DYSCustomer.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		F72799F2229E3414004ECCE8 /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				F72799FE229E364C004ECCE8 /* DYSWaiter.h */,
+				F72799FF229E364C004ECCE8 /* DYSWaiter.m */,
+			);
+			path = Invoker;
+			sourceTree = "<group>";
+		};
+		F72799F3229E3419004ECCE8 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				F72799FB229E3635004ECCE8 /* DYSWorker.h */,
+				F72799FC229E3635004ECCE8 /* DYSWorker.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
 		F74736F7222FA0D2003BE550 /* Demo01 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1552,12 +1660,15 @@
 				35FF5B61223805310079C123 /* DYSAbstractChain.m in Sources */,
 				35FF5AF42237FBD20079C123 /* DYSPeople.m in Sources */,
 				35FF5AF72237FC8F0079C123 /* DYSAdapterViewController.m in Sources */,
+				F72799F7229E34AC004ECCE8 /* DYSAbstractOrder.m in Sources */,
 				35FF5B88223806440079C123 /* DYSAbstractVisitor.m in Sources */,
 				F72799482297D9BE004ECCE8 /* DYSSimpleFactoryViewController.m in Sources */,
 				35FF5B092237FE9F0079C123 /* DYSHandsetBrandN.m in Sources */,
+				F72799FD229E3635004ECCE8 /* DYSWorker.m in Sources */,
 				F709667F2238D83500AF3A8A /* DYSStrategyViewController.m in Sources */,
 				F72799592297EADD004ECCE8 /* SqlServerFactory.m in Sources */,
 				35FF5B8B223806440079C123 /* DYSElementMan.m in Sources */,
+				F7279A09229E36ED004ECCE8 /* DYSDuckOrder.m in Sources */,
 				F72799582297EADD004ECCE8 /* MySqlFactory.m in Sources */,
 				F7279994229BD68C004ECCE8 /* DYSRule01AbstractFactory.m in Sources */,
 				F709667A2238CBE800AF3A8A /* CashNormal.m in Sources */,
@@ -1570,6 +1681,7 @@
 				F7279983229BCEB1004ECCE8 /* DYSRule01ViewController.m in Sources */,
 				F70966692238A35200AF3A8A /* DYSAnsweredPaper2.m in Sources */,
 				35FF5B51223804F30079C123 /* DYSVisitorViewController.m in Sources */,
+				F72799ED229E2FB6004ECCE8 /* DYSCommandViewController.m in Sources */,
 				35FF5B1D223800B00079C123 /* DYSStock.m in Sources */,
 				F72799BB229D247E004ECCE8 /* DYSHRDepartment.m in Sources */,
 				F727998B229BD524004ECCE8 /* DYSRule01FactoryA.m in Sources */,
@@ -1585,6 +1697,7 @@
 				F72799642297EB08004ECCE8 /* MySqlUser.m in Sources */,
 				358F62362232BDC0003DC180 /* DYSFactoryMethodViewController.m in Sources */,
 				F72799E1229D4523004ECCE8 /* DYSPursuit.m in Sources */,
+				F7279A06229E36DE004ECCE8 /* DYSChickenOrder.m in Sources */,
 				F72799BE229D248F004ECCE8 /* DYSFinanceDepartment.m in Sources */,
 				35FF5B1E223800B00079C123 /* DYSFacade.m in Sources */,
 				35FF5B20223800B00079C123 /* DYSNationalDebt.m in Sources */,
@@ -1607,6 +1720,7 @@
 				F72799742297EEF1004ECCE8 /* OperateFactory.m in Sources */,
 				F709666A2238A35200AF3A8A /* DYSTestPaper.m in Sources */,
 				F747370B222FA0D2003BE550 /* DYSPrototypeViewController.m in Sources */,
+				F72799FA229E34FB004ECCE8 /* DYSMuttonOrder.m in Sources */,
 				35FF5B33223801DE0079C123 /* DYSAbstractMediator.m in Sources */,
 				358F625C2232C0E4003DC180 /* DYSFatPersonBuilder.m in Sources */,
 				35FF5B89223806440079C123 /* DYSAbstractElement.m in Sources */,
@@ -1619,6 +1733,7 @@
 				F7279997229BD864004ECCE8 /* DYSRule01Demo03FactoryA.m in Sources */,
 				F727996E2297EC42004ECCE8 /* User.m in Sources */,
 				35FF5B72223805C70079C123 /* DYSDecorator1.m in Sources */,
+				F7279A03229E366F004ECCE8 /* DYSCustomer.m in Sources */,
 				F72799D3229D3BAA004ECCE8 /* DYSFWUser.m in Sources */,
 				358F62462232BDEE003DC180 /* VolunteerLeiFeng.m in Sources */,
 				35FF5B74223805C70079C123 /* DYSAbstractDecorator.m in Sources */,
@@ -1633,6 +1748,7 @@
 				35FF5B4E223804E30079C123 /* DYSDecoratorViewController.m in Sources */,
 				35FF5B60223805310079C123 /* DYSChainZongJinLi.m in Sources */,
 				35FF5B1F223800B00079C123 /* DYSRealty.m in Sources */,
+				F7279A00229E364C004ECCE8 /* DYSWaiter.m in Sources */,
 				358F624F2232C085003DC180 /* DYSBuilderViewController.m in Sources */,
 				358F625A2232C0E4003DC180 /* DYSPersonBuilderDirector.m in Sources */,
 				358F626022336836003DC180 /* DYSSingletonViewController.m in Sources */,
@@ -1798,7 +1914,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N38P9768D4;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREFIX_HEADER = DesignPattern/PrefixHeader.pch;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
@@ -1808,7 +1924,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gbanker.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

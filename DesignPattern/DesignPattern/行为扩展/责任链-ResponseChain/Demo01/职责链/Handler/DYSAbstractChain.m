@@ -9,6 +9,7 @@
 #import "DYSAbstractChain.h"
 
 @implementation DYSAbstractChain
+@synthesize superior;
 
 - (instancetype)initWithName:(NSString *)name {
     self = [super init];
@@ -20,5 +21,7 @@
 
 - (void)dealWithRequest:(DYSRequest *)request {
 }
+
+
 
 @end

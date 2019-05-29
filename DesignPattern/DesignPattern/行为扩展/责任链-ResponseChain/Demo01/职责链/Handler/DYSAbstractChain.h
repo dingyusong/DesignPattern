@@ -8,16 +8,13 @@
 
 #import "DYSRequest.h"
 #import <Foundation/Foundation.h>
+#import "DYSChainProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DYSAbstractChain : NSObject
-
-@property (nonatomic, strong) DYSAbstractChain *superior;
+@interface DYSAbstractChain : NSObject<DYSChainProtocol>
 @property (nonatomic, copy) NSString *name;
 - (instancetype)initWithName:(NSString *)name;
-
-- (void)dealWithRequest:(DYSRequest *)request;
 
 @end
 
