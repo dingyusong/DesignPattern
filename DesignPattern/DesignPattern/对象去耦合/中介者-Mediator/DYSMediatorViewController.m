@@ -6,6 +6,25 @@
 //  Copyright © 2019 丁玉松. All rights reserved.
 //
 
+/*
+ 
+ 意图：
+ 用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从 ⽽使其藕合松散，而且可以独立地改变它们之间的交互。
+ 
+ 
+ 参与者
+ ・Mediator(中介者）
+ 中介者定义⼀一个接⼝口⽤用于与各同事(Colleague)对象
+ 
+ ・ConcreteMediator(具体中介者）
+ 具体中介者通过协调各同事对象实现协作
+ 了了解并维护它的各个同事
+ 
+ ・Colleague class
+ 每一个同事类都知道它的中介者
+ 每一个同事对象在需与其他的同事通信的时候，与它的中介者通信
+ 
+ */
 #import "DYSMediatorViewController.h"
 #import "DYSColleague1.h"
 #import "DYSColleague2.h"

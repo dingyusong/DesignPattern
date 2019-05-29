@@ -35,28 +35,28 @@
             @"title": @"对象创建",
             @"array": @[
                     @{
-                        @"title": @"简单工厂",
+                        @"title": @"简单工厂-SimpleFactory",
                         @"page": @"DYSSimpleFactoryViewController"
                         },
                     @{
-                        @"title": @"工厂方法",
+                        @"title": @"工厂方法-FactoryMethod",
                         @"page": @"DYSFactoryMethodViewController"
                         },
                     @{
-                        @"title": @"抽象工厂",
+                        @"title": @"抽象工厂-AbstractFactory",
                         @"page": @"DYSAbstractFactoryViewController"
                         },
 
                 @{
-                   @"title": @"原型",
+                   @"title": @"原型-Prototype",
                    @"page": @"DYSPrototypeViewController"
                 },
                 @{
-                   @"title": @"生成器/建造者",
+                   @"title": @"生成器/建造者-Builder",
                    @"page": @"DYSBuilderViewController"
                 },
                 @{
-                   @"title": @"单例",
+                   @"title": @"单例-Singleton",
                    @"page": @"DYSSingletonViewController"
                 },
             ]
@@ -65,15 +65,15 @@
             @"title": @"接口适配",
             @"array": @[
                 @{
-                   @"title": @"适配器",
+                   @"title": @"适配器-Adapter",
                    @"page": @"DYSAdapterViewController"
                 },
                 @{
-                   @"title": @"桥接",
+                   @"title": @"桥接-Bridge",
                    @"page": @"DYSBridgeViewController"
                 },
                 @{
-                   @"title": @"外观",
+                   @"title": @"外观-Facade",
                    @"page": @"DYSFacadeViewController"
                 },
             ]
@@ -82,11 +82,11 @@
             @"title": @"对象去耦合",
             @"array": @[
                 @{
-                   @"title": @"中介者",
+                   @"title": @"中介者-Mediator",
                    @"page": @"DYSMediatorViewController"
                 },
                 @{
-                   @"title": @"观察者",
+                   @"title": @"观察者-Observer",
                    @"page": @"DYSObserverViewController"
                 },
             ]
@@ -95,11 +95,11 @@
             @"title": @"抽象集合",
             @"array": @[
                 @{
-                   @"title": @"组合",
+                   @"title": @"组合-Composite",
                    @"page": @"DYSCompositeViewController"
                 },
                 @{
-                   @"title": @"迭代器",
+                   @"title": @"迭代器-Iterator",
                    @"page": @"DYSIteratorViewController"
                 },
             ]
@@ -107,12 +107,16 @@
         @{
             @"title": @"行为扩展",
             @"array": @[
+                    @{
+                        @"title": @"解释器-Interpreter",
+                        @"page": @"DYSInterpreterViewController"
+                        },
                 @{
-                   @"title": @"访问者",
+                   @"title": @"访问者-Visitor",
                    @"page": @"DYSVisitorViewController"
                 },
                 @{
-                   @"title": @"装饰器",
+                   @"title": @"装饰器-Decorator",
                    @"page": @"DYSDecoratorViewController"
                 },
                 @{
@@ -125,11 +129,11 @@
             @"title": @"算法封装",
             @"array": @[
                 @{
-                   @"title": @"模板方法",
+                   @"title": @"模板方法-Template",
                    @"page": @"DYSTemplateViewController"
                 },
                 @{
-                   @"title": @"策略",
+                   @"title": @"策略-Strategy",
                    @"page": @"DYSStrategyViewController"
                 },
                 @{
@@ -155,9 +159,13 @@
             @"title": @"对象状态",
             @"array": @[
                 @{
-                   @"title": @"备忘录",
-                   @"page": @"DYSDemo01ViewController"
+                   @"title": @"备忘录-Memento",
+                   @"page": @"DYSMementoViewController"
                 },
+                @{
+                    @"title": @"状态-State",
+                    @"page": @"DYSStateViewController"
+                    },
             ]
         },
     ];
